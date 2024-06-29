@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://png.pngtree.com/background/20231030/original/pngtree-new-shopping-and-web-theme-in-shades-of-blue-and-violet-picture-image_5802762.jpg");
+}
+
+header {
+    /* background-color: #fdc500; */
+    color: black;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    color: black;
+    padding-top: 10%;
+    padding-left: 50%;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.hero p {
+    margin: 20px 0 0;
+    font-size: 24px;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

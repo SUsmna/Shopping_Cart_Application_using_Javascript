@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - MeShop</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 style="color: black;">Salsabil</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html"><b>Home</b></a></li>
+                    <li><a href="../Shop/shop.html"><b>SHOP</b></a></li>
+                    <li><a href="../login/login.html"><b>LOGIN</b></a></li>
+                    <li><a href="../Signin/signup.html"><b>SIGNIN</b></a></li>
+                    <li><a href="../profile/profile.html"><b>PROFILE</b></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="form-container">
+                <h1>My Profile</h1>
+                <form id="profileForm">
+                    <input type="text" id="profileUsername" placeholder="Firsst Name" >
+                    <input type="text" id="profilePassword" placeholder="last Name" >
+                    <button type="submit">Save Info</button>
+                </form>
+            </div>
+        </div>
+        <div class="container">
+            <div class="form-container">
+                <h1>Edit Password</h1>
+                <form id="profileForm">
+                    <input type="password" id="profileUsername" placeholder="Old Password" >
+                    <input type="password" id="profileUsername" placeholder="New Password" >
+                    <input type="password" id="profilePassword" placeholder="Confirm New Password" required>
+                    <button type="submit">Update Profile</button>
+                </form><br>
+                <button id="logoutButton">Logout</button>
+            </div>
+        </div>
+    </main>
+    <script src="profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding-left: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body { 
+    font-family: Arial, sans-serif; 
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+.sidebar div {
+    margin-bottom: 10px;
+}
+
+.main-content {
+    width: 60%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.main-content input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    opacity: 0.6;
+}
+
+.cart {
+    width: 20%;
+    padding: 10px;
+    border-left: 1px solid #ccc;
+}
+
+.cart h2 {
+    margin-top: 0;
+}
+
+#productsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+}
+
+.product {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.product img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#cartItems {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-item {
+    margin-bottom: 10px;
+}
+
+.cart-item button {
+    margin-left: 10px;
+    
+}
+
+label{
+    font-size: 25px;
+}
+
+
+/* Header section */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #f4f4f4;
+    color: white;
+    padding: 20px 0;
+    
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+   
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body id="bg-color">
+    <header>
+        <div class="container">
+            <h1 style="color: black;">Salsabil</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html"><b>Home</b></a></li>
+                    <li><a href="../Shop/shop.html"><b>SHOP</b></a></li>
+                    <li><a href="../login/login.html"><b>LOGIN</b></a></li>
+                    <li><a href="../Signin/signup.html"><b>SIGNIN</b></a></li>
+                    <li><a href="../profile/profile.html"><b>PROFILE</b></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <h1>Filter</h1>
+            <div><br>
+                <label style="font-size: 15px;">Color</label>
+                <select id="colorFilter">
+                    <option value="">All</option>
+                    <option value="Red">Red</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Gold">Gold</option>
+                    <option value="Black">Black</option>
+                </select>
+            </div>
+            <div>
+                <label style="font-size: 15px;">Size</label>
+                <select id="sizeFilter">
+                    <option value="">All</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+            </div>
+        </div>
+        <div class="main-content">
+            <input type="text" id="searchBox" placeholder="Search products...">
+            <div>
+                <label><b>Category</b></label>
+                <button onclick="filterByCategory('all')">All</button>
+                <button onclick="filterByCategory('men')">Men's</button>
+                <button onclick="filterByCategory('women')">Women's</button>
+                <button onclick="filterByCategory('jewellery')">Jewellery</button>
+                <button onclick="filterByCategory('electronics')">Electronics</button>
+            </div>
+            <div id="productsContainer">
+                <!-- Product items will be displayed here -->
+            </div>
+        </div>
+        <div class="cart">  
+            <h2>My Cart</h2>
+            <ul id="cartItems">
+                <!-- Cart items will be displayed here -->
+            </ul>
+            <div id="totalAmount"></div>
+            <button id="checkoutButton">Checkout</button>
+        </div>
+    </div>
+    <script src="shop.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</body>
+</html>
